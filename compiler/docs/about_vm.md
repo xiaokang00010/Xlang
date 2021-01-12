@@ -17,9 +17,9 @@ mov 1,reg10;
 ```
 **调用语句**`main(0,0);`
 ```asm
-mov [0],0;
-mov [8],0;
-mov reg31,16;
+mov_m [0],0,8;
+mov_m [8],0,8;
+add reg31,16;
 mov reg30,0;
 call main;
 ```
